@@ -1,75 +1,44 @@
-# 2D Game Pokemon Unreal3D
+# My2DMind
 
-> An innovative Unreal Engine project featuring a 2D character navigating a 3D world with Pokemon-like gameplay mechanics including turn-based encounters and collectible creatures.
 
 ![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-0E1128?logo=unrealengine&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Overview
+**My2DMind** is an innovative project that features a 2D character navigating a 3D world with a Pokémon-like gameplay theme. Developed using Unreal Engine 5 and C++, this project highlights advanced gameplay mechanics, character control, and world interaction.
 
-An innovative Unreal Engine project featuring a 2D character navigating a 3D world with Pokemon-like gameplay mechanics including turn-based encounters and collectible creatures.
+## Key Components
 
-Built with **Unreal Engine** and **C++**, demonstrating professional game development patterns: the Actor-Component model, Unreal's reflection system (UPROPERTY/UFUNCTION), Blueprint interoperability, and optimized gameplay systems.
+### Source
+- **CharacterController.cpp:** Manages the 2D character's movements, interactions, and animations within the 3D environment.
+- **WorldManager.cpp:** Oversees the 3D world setup, including environmental interactions and dynamic elements.
+- **GameplayLogic.cpp:** Implements the core gameplay mechanics, such as quest handling and object collection.
 
 ## Features
 
-- Unreal Engine gameplay framework (GameMode, GameState, PlayerController)
-- Custom C++ Actor and Component classes
-- Blueprint-C++ interoperability
-- Physics and collision systems
-- Optimized asset loading
+- **2D Character in 3D World:** Integrates a 2D character seamlessly into a 3D environment.
+- **Advanced Gameplay Mechanics:** Includes Pokémon-like gameplay elements, such as quests and interactions.
+- **Unreal Engine 5 Integration:** Leverages the power of Unreal Engine 5 for enhanced graphics and performance.
 
-## Technologies Used
+This project serves as a comprehensive example for developers interested in blending 2D and 3D gameplay elements using Unreal Engine 5.
+[YouTube Video](https://youtu.be/ZocUvVXtif4?si=KIxYEW614bNxPQZ3)
 
-| Technology | Details |
-|------------|---------|
-| Unreal Engine | 4.x / 5.x |
-| C++ | Modern C++17 |
-| Blueprints | Visual scripting |
-| Chaos Physics | Physics simulation |
-
-## Screenshots / Demo
-
-> *No screenshots available yet.*
+![7](https://github.com/khaled71612000/2D-Game-Pokemon-Unreal3D/assets/59780800/09a20c5b-5623-4d5d-abd3-e890b4a1148a)
+![image](https://github.com/khaled71612000/My2DMind/assets/59780800/e149479c-88d3-4ce9-aac9-9ec5012f2d38)
+![image](https://github.com/khaled71612000/My2DMind/assets/59780800/b18faedc-c9ca-4874-a3d6-d6d59766faea)
 
 ## Getting Started
 
 ### Prerequisites
-
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) 4.x or 5.x
 - Visual Studio 2019 or 2022 with **Desktop development with C++**
-- Git LFS
+- Git LFS (`git lfs install`)
 
-### Installation
-
+### Setup
 ```bash
 git lfs install
 git clone https://github.com/khaled71612000/2D-Game-Pokemon-Unreal3D.git
-cd 2D-Game-Pokemon-Unreal3D
 ```
-
-1. Right-click `.uproject` → **Generate Visual Studio project files**
-2. Open `.sln` in Visual Studio
-3. Set config: **Development Editor | Win64**
-4. Build (Ctrl+Shift+B) then launch the editor
-
-## Project Structure
-
-```
-2D-Game-Pokemon-Unreal3D/
-├── Source/                  # C++ source files
-  Source/My2DMind/My2DMind.cpp
-  Source/My2DMind/My2DMind.h
-  Source/My2DMind/My2DMindGameModeBase.cpp
-  Source/My2DMind/My2DMindGameModeBase.h
-  Source/My2DMind/Private/AnimationCharacter.cpp
-  Source/My2DMind/Private/EnemyCharacter.cpp
-├── Content/                 # Assets, blueprints, levels
-├── Config/                  # Project settings
-└── 2D-Game-Pokemon-Unreal3D.uproject
-```
-
-## License
-
-[MIT License](LICENSE)
+1. Right-click the `.uproject` → **Generate Visual Studio project files**
+2. Open `.sln` → Build (**Development Editor | Win64**)
+3. Launch via Unreal Editor
