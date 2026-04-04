@@ -7,6 +7,13 @@
 
 **My2DMind** is an innovative project that features a 2D character navigating a 3D world with a Pokémon-like gameplay theme. Developed using Unreal Engine 5 and C++, this project highlights advanced gameplay mechanics, character control, and world interaction.
 
+
+## Live Demo
+
+[![Watch Gameplay Demo](https://img.youtube.com/vi/ZocUvVXtif4/maxresdefault.jpg)](https://youtu.be/ZocUvVXtif4)
+
+> Click the thumbnail above to watch the full demo video.
+
 ## Key Components
 
 ### Source
@@ -26,6 +33,17 @@ This project serves as a comprehensive example for developers interested in blen
 ![7](https://github.com/khaled71612000/2D-Game-Pokemon-Unreal3D/assets/59780800/09a20c5b-5623-4d5d-abd3-e890b4a1148a)
 ![image](https://github.com/khaled71612000/My2DMind/assets/59780800/e149479c-88d3-4ce9-aac9-9ec5012f2d38)
 ![image](https://github.com/khaled71612000/My2DMind/assets/59780800/b18faedc-c9ca-4874-a3d6-d6d59766faea)
+
+
+## Tech Stack
+
+| Technology | Role |
+|---|---|
+| Unreal Engine 4/5 | Game engine (Blueprints + C++) |
+| C++ | Gameplay systems, custom components |
+| HLSL / USF | Custom shader authoring |
+| Git LFS | Large asset version control |
+
 
 ## Getting Started
 
