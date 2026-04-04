@@ -35,6 +35,14 @@ This project serves as a comprehensive example for developers interested in blen
 ![image](https://github.com/khaled71612000/My2DMind/assets/59780800/b18faedc-c9ca-4874-a3d6-d6d59766faea)
 
 
+
+## Architecture
+
+Key classes and systems (from source code):
+
+- **`My2DMind`** (extends `ModuleRules`) — core game class
+
+
 ## Tech Stack
 
 | Technology | Role |
